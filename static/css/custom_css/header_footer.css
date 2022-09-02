@@ -1,0 +1,85 @@
+* {
+    font-family: IRANSans;
+    list-style-type: none !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*:hover{
+    text-decoration: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+.form-control.me-2{
+  border: 1.5px solid #9932cc;
+}
+.btn.btn-outline-light:hover{
+  border: 1.5px solid #9932cc;
+}
+.btn.btn-outline-light{background-color:#9932cc; color:#ffff !important;}
+.btn.btn-outline-light:hover{background-color:#ffff; color:#9932cc !important;}
+
+form a{
+  color: #ffff;
+}
+.btn.btn-outline-info{background-color:#9932cc; color:#ffff !important; }
+.btn.btn-outline-info:hover{background-color:#ffff; color:#9932cc !important; }
+.btn.btn-outline-light.mb-4.mt-4 a{color:#ffff;}
+.btn.btn-outline-light.mb-4.mt-4 a:hover{color:#9932cc;}
+/* start footer*/
+.footer{
+background-color: #f1def7;
+}
+.footer p{
+text-align: center;
+color:#151717 !important;
+}
+.col-12.col-sm-12.col-md-3.col-lg-3.col-xl-3.col-xxl-3.align-items-center.mt-5{
+text-align: center;
+}
+.col-12.col-sm-12.col-md-3.col-lg-3.col-xl-3.col-xxl-3.align-items-center.mt-5 a{
+  color:#151717 !important;
+  display: inline-block;
+}
+/* END footer*/
+.bg-light {
+    background-color: #f1def7!important;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    color:#9932cc;
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+    color:#FF70A6;
+  }
+  .navbar-light .navbar-nav .nav-link:focus{
+    color:#FF70A6;
+  }
+  .navbar-light .navbar-toggler {
+    color: #9932cc;
+    border-color: #9932cc;
+}
+.navbar-light .navbar-brand{
+    color:#9932cc;
+}
+.navbar-light .navbar-brand:hover{
+    color:#9932cc;
+}
+.dropdown-menu.show{
+  background-color:#f1def7 ;
+  border-color:#f1def7 ;
+}
+.navbar-light .navbar-nav .nav-link{
+  color:#9932cc;
+}
+.dropdown-item{
+  color:#9932cc;
+}
+.dropdown-item:hover{
+  color:#FF70A6;
+    background-color:#f1def7 ;
+}

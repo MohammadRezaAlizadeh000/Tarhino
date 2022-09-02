@@ -1,0 +1,15 @@
+{% load static %}
+
+<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 pb-4">
+    <div class="card card-main-course">
+        <img src="{% static "courses/images/"|add:course.image %}" class="card-img-top">
+{#        <img src="courses/images/adobe-xd-course-thumbnail-400x229.jpg" class="card-img-top">#}
+        <div class="card-body">
+            <h6 class="card-title title-c">{{ course.name }}</h6>
+            <p class="card-text">مدرس:{{ course.teacher }}</p>
+        </div>
+        <div class="card-footer  bg-white footer-main-course">
+            <a href="دوره آموزشی جامع پروژه محور Adobe XD.html" target="_blank">شرکت در دوره</a>
+        </div>
+    </div>
+</div>

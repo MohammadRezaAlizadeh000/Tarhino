@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.rtl.min.css' %}">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'css/custom_css/header_footer.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    {% block style %} {% endblock %}
+    <title> {% block title %} {% endblock %} </title>
+</head>
+<body>
+
+{% include "top_bar.html" %}
+{% include "menu.html" %}
+
+{% block body %}
+
+{% endblock %}
+
+
+{% include "footer.html" %}
+
+
+<script src="{% static 'js/bootstrap.bundle.min.js' %}" charset="utf-8"></script>
+</body>
+</html>

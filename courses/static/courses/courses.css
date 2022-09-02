@@ -1,0 +1,21 @@
+a{
+  color:#9932cc;
+  text-align: center;
+}
+a:hover{
+  color:#9932cc;
+}
+h4{
+  color: #9932cc;
+}
+.card.card-main-course{
+  border-radius: 0.5rem;
+}
+.card-img-top{
+  border-top-left-radius:0.5rem;
+  border-top-right-radius:0.5rem;
+}
+.card-footer.bg-white.footer-main-course{
+  border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
