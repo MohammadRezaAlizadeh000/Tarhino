@@ -14,10 +14,15 @@
     </div>
     <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-3">
         <nav class="navbar">
+            <p>{{ user.username }}</p>
             <form class="container-fluid flex-column">
-                <button class="btn btn-outline-light" type="button"><a href="login_register.html"
-                                                                       target="_blank">ورود/ثبت
-                    نام</a></button>
+                <button class="btn btn-outline-light" type="button">
+                    {% if user.is_authenticated %}
+                        <a href="{% url 'logout_user' %}" target="_blank">خروج از حساب کاربری</a>
+                    {% else %}
+                        <a href="{% url 'registration_page' %}" target="_blank">ورود/ثبت نام</a>
+                    {% endif %}
+                </button>
             </form>
         </nav>
     </div>
